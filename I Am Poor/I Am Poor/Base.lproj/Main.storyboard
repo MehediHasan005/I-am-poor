@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="I_Am_Poor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="120217064_3287846291297239_436642541436398686_n" translatesAutoresizingMaskIntoConstraints="NO" id="PHk-Xs-JDb">
+                                <rect key="frame" x="87" y="355" width="240" height="347"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="hBH-KF-vQ5"/>
+                                    <constraint firstAttribute="height" constant="140" id="nye-Hx-j4p"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I Am Poor" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sgx-g0-AzT">
+                                <rect key="frame" x="135" y="193" width="144" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="140" id="Es8-1N-sy5"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="144" id="X3j-Qm-HLI"/>
+                                    <constraint firstAttribute="width" constant="150" id="knM-F9-NlG"/>
+                                    <constraint firstAttribute="width" secondItem="Sgx-g0-AzT" secondAttribute="height" multiplier="72:11" id="mqY-QZ-0xS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                <color key="textColor" systemColor="systemGreenColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="PHk-Xs-JDb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="140" id="78Z-sp-fr8"/>
+                            <constraint firstItem="Sgx-g0-AzT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-242" id="7ef-2g-GeD"/>
+                            <constraint firstItem="Sgx-g0-AzT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="140" id="9W1-Wg-Pyd"/>
+                            <constraint firstItem="Sgx-g0-AzT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="149" id="ARI-n5-Bvq"/>
+                            <constraint firstItem="Sgx-g0-AzT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="GVK-iA-Lk6"/>
+                            <constraint firstItem="Sgx-g0-AzT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="140" id="KWO-0x-vw6"/>
+                            <constraint firstItem="Sgx-g0-AzT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ki2-38-n01"/>
+                            <constraint firstItem="PHk-Xs-JDb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NHm-jq-4i5"/>
+                            <constraint firstItem="PHk-Xs-JDb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="OSl-Na-chR"/>
+                            <constraint firstItem="PHk-Xs-JDb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Psr-es-SPk"/>
+                            <constraint firstItem="PHk-Xs-JDb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="321" id="RhH-48-MB0"/>
+                            <constraint firstItem="Sgx-g0-AzT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="V6g-nw-ucC"/>
+                            <constraint firstItem="PHk-Xs-JDb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="VCE-qC-JnY"/>
+                            <constraint firstItem="PHk-Xs-JDb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Z5z-5d-UC4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="PHk-Xs-JDb" secondAttribute="bottom" constant="332" id="atW-OA-qBS"/>
+                            <constraint firstItem="Sgx-g0-AzT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="d2o-SF-xKB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PHk-Xs-JDb" secondAttribute="trailing" constant="87" id="eWz-Ak-Axk"/>
+                            <constraint firstItem="PHk-Xs-JDb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="orV-8L-Sdp"/>
+                            <constraint firstItem="PHk-Xs-JDb" firstAttribute="top" secondItem="Sgx-g0-AzT" secondAttribute="bottom" constant="150" id="pKe-aZ-i7I"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="PHk-Xs-JDb" secondAttribute="bottom" constant="150" id="pc7-8q-bvk"/>
+                            <constraint firstItem="Sgx-g0-AzT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tql-gW-F1W"/>
+                            <constraint firstItem="Sgx-g0-AzT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="x5k-6n-vIa"/>
+                            <constraint firstItem="PHk-Xs-JDb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="y0C-Ww-Ttf"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-23.188405797101453" y="58.928571428571423"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="120217064_3287846291297239_436642541436398686_n" width="151" height="128"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
